@@ -1,0 +1,91 @@
+date,amount,merchant,category,description
+2024-01-02,45.50,Uber Eats,Food,Dinner delivery
+2024-01-03,12.00,Spotify,Entertainment,Monthly subscription
+2024-01-04,85.00,Walmart,Shopping,Groceries
+2024-01-05,35.00,Shell Gas,Transport,Fuel
+2024-01-06,120.00,Nike Store,Shopping,Running shoes
+2024-01-07,22.50,McDonald's,Food,Lunch
+2024-01-08,15.00,Netflix,Entertainment,Monthly subscription
+2024-01-09,200.00,Electric Co,Bills,Electricity bill
+2024-01-10,55.00,CVS Pharmacy,Health,Medicine
+2024-01-11,38.00,Domino's Pizza,Food,Pizza order
+2024-01-12,90.00,Uber,Transport,Rides this week
+2024-01-13,180.00,Amazon,Shopping,Electronics
+2024-01-14,25.00,Starbucks,Food,Coffee and snacks
+2024-01-15,750.00,Rent Payment,Bills,January rent
+2024-01-16,42.00,Chipotle,Food,Lunch and dinner
+2024-01-17,30.00,Gym Membership,Health,Monthly gym fee
+2024-01-18,15.50,Subway,Food,Lunch
+2024-01-19,60.00,Target,Shopping,Household items
+2024-01-20,18.00,Lyft,Transport,Airport ride
+2024-01-21,95.00,Doctor Visit,Health,Copay
+2024-01-22,33.00,Five Guys,Food,Dinner
+2024-01-23,22.00,iTunes,Entertainment,App purchases
+2024-01-24,140.00,Internet Bill,Bills,Monthly internet
+2024-01-25,29.00,Panera Bread,Food,Lunch
+2024-01-26,55.00,H&M,Shopping,Clothing
+2024-01-27,12.50,Dunkin,Food,Coffee
+2024-01-28,80.00,Costco,Shopping,Bulk groceries
+2024-01-29,45.00,Gas Station,Transport,Fuel
+2024-01-30,18.00,Hulu,Entertainment,Monthly subscription
+2024-01-31,25.00,Taco Bell,Food,Late night food
+2024-02-01,52.00,Uber Eats,Food,Dinner delivery
+2024-02-02,12.00,Spotify,Entertainment,Monthly subscription
+2024-02-03,95.00,Whole Foods,Shopping,Groceries
+2024-02-04,40.00,Shell Gas,Transport,Fuel
+2024-02-05,65.00,Zara,Shopping,Clothing
+2024-02-06,28.00,KFC,Food,Lunch
+2024-02-07,15.00,Netflix,Entertainment,Monthly subscription
+2024-02-08,200.00,Electric Co,Bills,Electricity bill
+2024-02-09,60.00,Walgreens,Health,Medicine and vitamins
+2024-02-10,42.00,Pizza Hut,Food,Weekend pizza
+2024-02-11,110.00,Uber,Transport,Rides this week
+2024-02-12,250.00,Best Buy,Shopping,Headphones
+2024-02-13,30.00,Starbucks,Food,Coffee and snacks
+2024-02-14,750.00,Rent Payment,Bills,February rent
+2024-02-15,55.00,Chick-fil-A,Food,Lunch
+2024-02-16,30.00,Gym Membership,Health,Monthly gym fee
+2024-02-17,18.00,Subway,Food,Lunch
+2024-02-18,75.00,Target,Shopping,Household items
+2024-02-19,22.00,Lyft,Transport,City ride
+2024-02-20,80.00,Dental Visit,Health,Cleaning copay
+2024-02-21,40.00,Olive Garden,Food,Dinner
+2024-02-22,35.00,Steam,Entertainment,Games
+2024-02-23,140.00,Internet Bill,Bills,Monthly internet
+2024-02-24,34.00,Panera Bread,Food,Lunch
+2024-02-25,88.00,Macy's,Shopping,Clothing sale
+2024-02-26,10.00,Dunkin,Food,Coffee
+2024-02-27,90.00,Costco,Shopping,Bulk groceries
+2024-02-28,50.00,Gas Station,Transport,Fuel
+2024-03-01,890.00,UNKNOWN_MERCHANT_XZ9,Others,Suspicious charge
+2024-03-01,68.00,Uber Eats,Food,Dinner delivery
+2024-03-02,12.00,Spotify,Entertainment,Monthly subscription
+2024-03-03,105.00,Trader Joe's,Shopping,Groceries
+2024-03-04,38.00,Shell Gas,Transport,Fuel
+2024-03-05,45.00,Gap,Shopping,Clothing
+2024-03-06,35.00,Burger King,Food,Lunch
+2024-03-07,15.00,Netflix,Entertainment,Monthly subscription
+2024-03-08,215.00,Electric Co,Bills,Electricity bill
+2024-03-09,45.00,CVS Pharmacy,Health,Medicine
+2024-03-10,50.00,Domino's Pizza,Food,Weekend pizza
+2024-03-11,95.00,Uber,Transport,Rides this week
+2024-03-12,320.00,Apple Store,Shopping,Accessories
+2024-03-13,38.00,Starbucks,Food,Coffee daily
+2024-03-14,750.00,Rent Payment,Bills,March rent
+2024-03-15,62.00,Chipotle,Food,Lunch and dinner
+2024-03-16,30.00,Gym Membership,Health,Monthly gym fee
+2024-03-17,20.00,Subway,Food,Lunch
+2024-03-18,65.00,Target,Shopping,Household items
+2024-03-19,25.00,Lyft,Transport,Ride share
+2024-03-20,110.00,Eye Doctor,Health,Vision checkup
+2024-03-21,75.00,Texas Roadhouse,Food,Dinner with friends
+2024-03-22,28.00,YouTube Premium,Entertainment,Annual subscription
+2024-03-23,140.00,Internet Bill,Bills,Monthly internet
+2024-03-24,42.00,Panera Bread,Food,Lunch
+2024-03-25,120.00,Nordstrom,Shopping,Shoes
+2024-03-26,15.00,Dunkin,Food,Coffee
+2024-03-27,100.00,Costco,Shopping,Bulk groceries
+2024-03-28,55.00,Gas Station,Transport,Fuel
+2024-03-29,20.00,Disney+,Entertainment,Monthly subscription
+2024-03-30,35.00,Taco Bell,Food,Late night
+2024-03-31,1500.00,WIRE_TRANSFER_INTL,Others,Flagged international wire
