@@ -4,7 +4,7 @@ FinanceIQ — AI Personal Finance & Spending Intelligence System
 
 ---
 
-## 📐 System Architecture
+System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
