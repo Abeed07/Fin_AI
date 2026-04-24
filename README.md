@@ -1,4 +1,4 @@
-FinanceIQ — AI Personal Finance & Spending Intelligence System
+FinAI — AI Personal Finance & Spending Intelligence System
 
 > Analyze transactions · Detect fraud · Get smart budget advice — all locally.
 
