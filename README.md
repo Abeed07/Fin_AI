@@ -1,12 +1,11 @@
-# 🧠 FinanceIQ — AI Personal Finance & Spending Intelligence System
+FinanceIQ — AI Personal Finance & Spending Intelligence System
 
-> Analyze transactions · Detect fraud · Get smart budget advice — all locally.
+Analyze transactions · Detect fraud · Get smart budget advice — all locally.
 
----
 
-## 📐 System Architecture
+System Architecture
 
-```
+
 ┌─────────────────────────────────────────────────────────────────┐
 │                        FRONTEND LAYER                           │
 │   index.html  ─  Chart.js  ─  Vanilla JS Dashboard             │
@@ -43,13 +42,11 @@
                             ▼
                   [Pandas DataFrame / In-memory]
                   (SQLite optional for persistence)
-```
 
----
 
-## 📁 Folder Structure
+Folder Structure
 
-```
+
 finance_intelligence/
 ├── backend/
 │   ├── main.py                    # FastAPI app & all routes
@@ -66,49 +63,44 @@ finance_intelligence/
 ├── sample_data/
 │   └── transactions.csv           # 90-day sample dataset (real-world like)
 └── README.md                      # This file
-```
 
----
+Quick Start
 
-## ⚡ Quick Start
-
-### Step 1: Prerequisites
+Step 1: Prerequisites
 ```bash
 # Python 3.9+ required
 python --version
 ```
 
-### Step 2: Install Backend Dependencies
+Step 2: Install Backend Dependencies
 ```bash
 cd finance_intelligence/backend
 pip install -r requirements.txt
 ```
 
-### Step 3: Start the Backend API
+Step 3: Start the Backend API
 ```bash
 # From the backend/ directory
 uvicorn main:app --reload --port 8000
 ```
 You should see: `Uvicorn running on http://0.0.0.0:8000`
 
-### Step 4: Open the Frontend
+Step 4: Open the Frontend
 ```bash
-# Option A: Just open in browser directly
+Option A: Just open in browser directly
 open ../frontend/index.html
 
-# Option B: Serve with Python (avoids some CORS issues)
+Option B: Serve with Python (avoids some CORS issues)
 cd ../frontend
 python -m http.server 3000
-# Then visit http://localhost:3000
+Then visit http://localhost:3000
 ```
+Step 5: Use the Dashboard
+- Upmo Mode: Click "Load sample demo data" (backend must be running)
 
-### Step 5: Use the Dashboard
-- **Upload CSV**: Click the upload zone or drag your `sample_data/transactions.csv`
-- **Demo Mode**: Click "Load sample demo data" (backend must be running)
 
----
 
-## 🔌 API Endpoints
+API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -121,11 +113,11 @@ python -m http.server 3000
 | GET | `/api/budget-recommendations` | Budget + savings plan |
 | GET | `/api/trends` | Daily/weekly/monthly trends |
 
-**Interactive Docs**: `http://localhost:8000/docs` (Swagger UI auto-generated)
+Interactive Docs: `http://localhost:8000/docs` (Swagger UI auto-generated)
 
----
 
-## 📊 CSV Format
+
+CSV Format
 
 Required columns:
 ```csv
@@ -142,7 +134,7 @@ date,amount,merchant,category,description
 
 ---
 
-## 🤖 ML Models Used
+ML Models Used
 
 | Model | Purpose | Library |
 |-------|---------|---------|
@@ -154,7 +146,7 @@ date,amount,merchant,category,description
 
 ---
 
-## 🎯 Categories
+Categories
 
 | Category | Keywords Matched |
 |----------|-----------------|
@@ -168,54 +160,4 @@ date,amount,merchant,category,description
 
 ---
 
-## 🚀 Scale to a Fintech Product
 
-### Infrastructure Upgrades
-1. **Replace in-memory storage** → PostgreSQL + SQLAlchemy ORM
-2. **Add authentication** → Auth0 / JWT tokens / OAuth2
-3. **Bank integrations** → Plaid API (connects to 10,000+ banks)
-4. **Message queue** → Celery + Redis for async ML processing
-5. **Container** → Dockerize backend, deploy to AWS ECS / GCP Cloud Run
-6. **CDN frontend** → Host on Vercel / Cloudflare Pages
-
-### How Banks Could Use This System
-1. **Fraud Prevention Department**: Real-time transaction scoring via the anomaly API embedded in payment processing pipelines
-2. **Customer Mobile App**: White-label the dashboard UI with bank branding — personalized spend insights increases app engagement by 3-5x
-3. **Credit Risk Modeling**: Feed categorized spending patterns into loan approval algorithms
-4. **Regulatory Compliance (AML)**: The anomaly detector flags suspicious wire transfers for SAR (Suspicious Activity Report) workflows
-5. **Product Recommendations**: "You spend $400/month on food — here's our cash-back dining card" upsells
-
----
-
-## 🔮 3 Advanced AI Features to Add Later
-
-### 1. 🤖 LLM-Powered Conversational Finance Assistant
-```
-User: "Why did I overspend last month?"
-AI:   "You spent 34% more on Food ($580 vs $432 avg). 
-       Uber Eats accounted for $210 — 3x your normal delivery spend.
-       Want me to set a $150/month Food delivery budget alert?"
-```
-**How**: Connect GPT-4/Claude API with your transaction data as context. Build a RAG system on top of spending history.
-
-### 2. 📈 Predictive Spending Forecast (Time Series ML)
-- Use **Prophet** or **LSTM neural network** to forecast next month's spending by category
-- "Based on your patterns, you'll likely spend $2,340 next month — $180 over your budget"
-- Proactively alert users before they overspend
-
-### 3. 🕵️ Graph-Based Fraud Detection (Advanced)
-- Model transactions as a **graph** (merchants as nodes, spending patterns as edges)
-- Use **Graph Neural Networks (PyTorch Geometric)** to detect fraud rings and account takeovers
-- Far more powerful than single-transaction anomaly detection — catches coordinated fraud patterns that simple ML misses
-
----
-
-## 🛠️ Troubleshooting
-
-**CORS Error**: Make sure backend is running on port 8000 before opening the frontend.
-
-**Module Not Found**: Run `pip install -r requirements.txt` from the `backend/` directory.
-
-**CSV Parse Error**: Ensure your CSV has at minimum `date`, `amount`, and `merchant` columns.
-
-**Port already in use**: `uvicorn main:app --reload --port 8001` then update `const API` in `index.html`.
